@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-jumbomode" version="1.0">
+    <name>Cordova Jumbo Mode</name>
+    <description>This plugin adds jumboMode support to the build process, if enabled STRINGS will be indexed as 32bit
+        indices, leaving more space in the 64k index range for methods (this could enable you to build the app without
+        needing multi-dex support, especially if there are a lot of static strings).</description>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.5.0"/>
+    </engines>
+    <platform name="android">
+        <framework src="build.gradle" custom="true" type="gradleReference"/>
+    </platform>
+</plugin>
