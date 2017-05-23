@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-jumbomode",
+  "version": "1.0.0",
+  "description": "This plugin adds jumboMode support to the build process, if enabled STRINGS will be indexed as 32bit\n        indices, leaving more space in the 64k index range for methods (this could enable you to build the app without\n        needing multi-dex support, especially if there are a lot of static strings).",
+  "cordova": {
+    "id": "cordova-plugin-jumbomode",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chancezeus/cordova-plugin-jumbomode.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.5.0"
+    }
+  ],
+  "author": "Mark van Beek <mark@appelit.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chancezeus/cordova-plugin-jumbomode/issues"
+  },
+  "homepage": "https://github.com/chancezeus/cordova-plugin-jumbomode#readme"
+}
